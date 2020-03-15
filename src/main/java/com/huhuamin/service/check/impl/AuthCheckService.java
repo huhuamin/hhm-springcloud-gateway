@@ -44,7 +44,7 @@ public class AuthCheckService implements ICheckRange {
         if (StringUtils.isNotEmpty(reqHeader.getToken())) {
             return checkDie(reqHeader.getToken(), jsonResult);
         } else {
-            if (!reqHeader.getUri().contains("/option")) {
+            if (!reqHeader.getUri().contains("/no")) {
                 jsonResult.setMessage("token 不能为空");
                 return false;
             }

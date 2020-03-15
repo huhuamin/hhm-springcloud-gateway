@@ -55,7 +55,7 @@ public class HhmGlobalFilter implements GlobalFilter, Ordered {
         ServerHttpRequest request = exchange.getRequest();
         ServerHttpResponse response = exchange.getResponse();
         //放行
-        if (request.getURI().getPath().contains("/no/")) {
+        if (request.getURI().getPath().contains("/spec/")) {
             return chain.filter(exchange);
         }
 
