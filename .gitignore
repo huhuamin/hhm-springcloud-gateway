@@ -1,0 +1,46 @@
+# project logs
+logs/
+out/
+error/
+info/
+
+# jrebel
+rebel.xml
+
+# maven ignore
+target/
+unpackage/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+workspace.xml
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# prevent ignoring shengxibao sub folder
+
+# node_modules
+node_modules
+
