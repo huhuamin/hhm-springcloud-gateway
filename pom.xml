@@ -51,10 +51,10 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
-        <!--        redis -->
+        <!--        redis 我也依赖的 data-redis-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <groupId>com.huhuamin</groupId>
+            <artifactId>hhm-redis-springcloud-starter</artifactId>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
         <dependency>

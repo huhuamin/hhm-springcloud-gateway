@@ -1,6 +1,6 @@
 package com.huhuamin.service.check.impl;
 
-import com.huhuamin.jedis.RedisService;
+import com.huhuamin.redis.lettuce.RedisService;
 import com.huhuamin.req.ReqHeader;
 import com.huhuamin.result.JsonResult;
 import com.huhuamin.service.ICheckRange;

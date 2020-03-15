@@ -1,6 +1,7 @@
 package com.huhuamin;
 
-import com.huhuamin.jedis.RedisService;
+
+import com.huhuamin.redis.lettuce.RedisService;
 import com.huhuamin.service.ICheckRange;
 import com.huhuamin.service.check.impl.AllCheckRangeService;
 import com.huhuamin.service.check.impl.AppCheckRangeService;
